@@ -1,0 +1,24 @@
+# CONJUNTO 23: Desempeño escolar en lengua portuguesa
+# Una fila representa un estudiante de la asignatura de lengua portuguesa en una de dos escuelas secundarias de Portugal. No se mezclan las tablas de matemáticas y portugués.
+# Registros: 360. Cada archivo es una muestra aleatoria simple sin reemplazo de la tabla fuente.
+# Los conjuntos de distintos alumnos pueden compartir observaciones.
+# Archivo UTF-8. Las líneas que comienzan con # son comentarios; la tabla CSV comienza en la primera línea sin #.
+# Separador: coma. Separador decimal: punto. NA indica dato faltante; cero es un valor observado.
+# Se retiraron algunos valores con fines de evaluación. La selección de columnas y el ocultamiento son modificaciones docentes.
+# Fuente: https://archive.ics.uci.edu/dataset/320/student+performance
+# Atribución: Cortez (2008). Student Performance. UCI. CC BY 4.0. Archivo student-por.csv.
+# G1 y G2 corresponden a periodos anteriores a G3. Las categorías de horas y educación son ordinales. Las observaciones pertenecen a solo dos escuelas.
+# VARIABLES (en el orden de la tabla):
+# id_registro: Identificador local de la fila, sin significado estadístico.
+# G3: Calificación final en lengua portuguesa, de 0 a 20 puntos.
+# G1: Calificación del primer periodo en lengua portuguesa, de 0 a 20 puntos.
+# G2: Calificación del segundo periodo en lengua portuguesa, de 0 a 20 puntos.
+# age: Edad del estudiante, en años.
+# absences: Número de ausencias escolares registradas.
+# school: Escuela: GP=Gabriel Pereira; MS=Mousinho da Silveira.
+# sex: Sexo registrado: F=femenino; M=masculino.
+# address: Zona de residencia: U=urbana; R=rural.
+# Fedu: Educación del padre: 0=ninguna; 1=primaria hasta cuarto grado; 2=quinto a noveno grado; 3=secundaria; 4=superior.
+# famsup: Apoyo educativo familiar: yes=sí; no=no.
+# internet: Acceso a internet en casa: yes=sí; no=no.
+# activities: Participación en actividades extracurriculares: yes=sí; no=no.
